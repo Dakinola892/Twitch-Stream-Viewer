@@ -1,0 +1,119 @@
+body {
+  background-color: purple;
+}
+
+.container {
+  background-color: white;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.channel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #805080;
+  color: white;
+}
+
+.channel-name {
+  width: 380px;
+  display: inline-block;
+  font-size: 56px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 24px;
+  text-align: center;
+  padding-left: 0;
+}
+
+.fa-check {
+  color: green;
+}
+
+.fa-times {
+  color: red;
+}
+
+.fa-exclamation {
+  color: yellow;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+  background-color: purple;
+}
+
+.container {
+  width: 900px;
+  background-color: #805080;
+  margin-top: 24px;
+}
+
+.headerDivider {
+  border-left: 1px solid white;
+  border-right: 1px solid #16222c;
+  height: 80px;
+  right: 249px;
+  top: 10px;
+}
+
+.nav > li > a {
+  color: white;
+}
+
+hr {
+  background-color: white;
+  height: 1px;
+  border: 1;
+}
+
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
+  background-color: purple;
+}
+
+.nav-item {
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-top: 16px;
+}
+
+h1 {
+  font-size: 72px;
+  color: white;
+  background-color: purple;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.jumbotron {
+  background-color: #805080;
+  padding: 48px 0px 48px 0px;
+}
+
+a .fa {
+  color: white;
+}
+
+.streaming-info {
+  width: 273.16px;
+}
+
+.stream-link {
+  color: white;
+}
